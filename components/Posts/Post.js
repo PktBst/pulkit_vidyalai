@@ -98,6 +98,7 @@ const Post = ({ post }) => {
         <NextButton onClick={handleNextClick}>&#10095;</NextButton>
       </CarouselContainer>
       <Content>
+        {/* {console.log(post)} */}
         <h2>{post.title}</h2>
         <p>{post.body}</p>
       </Content>
